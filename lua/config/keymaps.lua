@@ -1,4 +1,7 @@
+-- Your keymaps.lua file
+
 local keymap = vim.keymap
 local opts = { noremap = true, silent = true }
 
-keymap.set("n", "<C-a>", "gg<S-v>G")
+-- Example keymap
+keymap.set("n", "<C-a>", "gg<S-v>G", opts)
